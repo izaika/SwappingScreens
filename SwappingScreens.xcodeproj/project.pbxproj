@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8F21C3741F39FAC1004AFE29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21C3731F39FAC1004AFE29 /* AppDelegate.swift */; };
-		8F21C3761F39FAC1004AFE29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21C3751F39FAC1004AFE29 /* ViewController.swift */; };
+		8F21C3761F39FAC1004AFE29 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21C3751F39FAC1004AFE29 /* LoginVC.swift */; };
 		8F21C3791F39FAC1004AFE29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F21C3771F39FAC1004AFE29 /* Main.storyboard */; };
 		8F21C37B1F39FAC1004AFE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F21C37A1F39FAC1004AFE29 /* Assets.xcassets */; };
 		8F21C37E1F39FAC1004AFE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F21C37C1F39FAC1004AFE29 /* LaunchScreen.storyboard */; };
+		8F21C3861F3A0282004AFE29 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21C3851F3A0282004AFE29 /* MusicListVC.swift */; };
+		8F21C3881F3A069B004AFE29 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21C3871F3A069B004AFE29 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F21C3701F39FAC1004AFE29 /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F21C3731F39FAC1004AFE29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F21C3751F39FAC1004AFE29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F21C3751F39FAC1004AFE29 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8F21C3781F39FAC1004AFE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F21C37A1F39FAC1004AFE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F21C37D1F39FAC1004AFE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F21C37F1F39FAC1004AFE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F21C3851F3A0282004AFE29 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		8F21C3871F3A069B004AFE29 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				8F21C3731F39FAC1004AFE29 /* AppDelegate.swift */,
-				8F21C3751F39FAC1004AFE29 /* ViewController.swift */,
+				8F21C3751F39FAC1004AFE29 /* LoginVC.swift */,
 				8F21C3771F39FAC1004AFE29 /* Main.storyboard */,
 				8F21C37A1F39FAC1004AFE29 /* Assets.xcassets */,
 				8F21C37C1F39FAC1004AFE29 /* LaunchScreen.storyboard */,
 				8F21C37F1F39FAC1004AFE29 /* Info.plist */,
+				8F21C3851F3A0282004AFE29 /* MusicListVC.swift */,
+				8F21C3871F3A069B004AFE29 /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F21C3761F39FAC1004AFE29 /* ViewController.swift in Sources */,
+				8F21C3861F3A0282004AFE29 /* MusicListVC.swift in Sources */,
+				8F21C3881F3A069B004AFE29 /* PlaySongVC.swift in Sources */,
+				8F21C3761F39FAC1004AFE29 /* LoginVC.swift in Sources */,
 				8F21C3741F39FAC1004AFE29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
