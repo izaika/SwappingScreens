@@ -19,6 +19,11 @@ class MusicListVC: UIViewController {
     @IBAction func BackBtnPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func loadThirdScreenPressed(_ sender: Any) {
+        let songTitle = "Ghost Busters"
+        performSegue(withIdentifier: "PlaySongVC", sender: songTitle)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -26,14 +31,12 @@ class MusicListVC: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if let destination = segue.destination as? PlaySongVC {
+            if let song = sender as? String {
+                destination.selectedSong = song
+            }
+        }
     }
-    */
 
 }
